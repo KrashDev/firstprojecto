@@ -1,0 +1,85 @@
+html {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	margin:20;
+	padding:20;
+	background:#b3b3cc;
+	border: 1px solid grey;
+}
+
+h2 {
+	color: #009999;
+}
+
+head {
+	background:#b3b3ff;
+}
+
+body {
+	background-image: url("file://C:/Users/Donny%20Gabai/Desktop/HTML.CSS/ep_naturalwhite.png");
+	
+}
+
+#name {
+	
+	font-size: 20px;
+	float: left;
+	color: white;
+	background-color: #009999;
+}
+
+
+.nav {
+	list-style-type: none;
+	width:97%;
+	margin: 0;
+	padding: 20;
+	background: white;
+	text-align: right;
+
+}
+
+li {
+    display: inline;
+}
+
+.aboutme {
+	border: 2px solid #d9d9d9;
+	height: 400px;
+    width: 35%;
+	margin: 100px;
+	padding: 15;
+	float: left;
+	background: white;
+}
+
+.floated {
+    float: left;
+    width: 225px;
+}
+
+.connect {
+	border: 2px solid #d9d9d9;
+	text-align: center;
+	height: 150px;
+    float: left;
+	margin: 100px;
+	padding: 15px;
+	background: white;
+}
+footer {
+	font-size: 15;
+	color: white;
+	position: absolute;
+	border-style: solid;
+    border-top: 5px solid #009999;
+    width:92%;
+	padding:10;
+	bottom: 0;
+	background:#808080;
+	text-align: center;
+}
+
+when do you put a . in front of the div class you are or a # referencing in the CSS file
+
+what is the difference between a div id and a div class? how are they used?
